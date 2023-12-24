@@ -1,0 +1,192 @@
+body {
+  background:rgb(140, 192, 37);
+  margin:0 auto;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.dev {
+  width: 50%;
+  height: 50vh;
+  background: rgb(81, 83, 83);
+  margin: 15px;
+  border-radius: 8px;
+  margin-top: 10em;
+  overflow: hidden;
+  text-shadow: 1px 2px .5px rgb(44, 41, 122);
+  box-sizing: border-box;
+  box-shadow: 
+    2px 2px 0px -5px rgb(192, 154, 154),
+    2px 5px 0px -2px rgb(43, 36, 36),
+    0px -2px 0px 2px rgb(128, 128, 128),
+    4px 4px 0px 0px rgb(220, 222, 173)
+}
+
+
+a {
+  color: beige;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  margin-right: 4em;
+}
+
+header {
+  margin: 0;
+  background: rgb(97, 97, 15);
+  margin-top: 0;
+  position: fixed;
+  margin-bottom: 15em;
+}
+  
+#education {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dev:hover {
+  height: 70vh;
+  border-radius: 8px;
+}
+
+.hold-photo1 {
+  background-color: rgb(39, 41, 35);
+  margin: 5px;
+  width: 20em;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid grey; 
+  border-bottom: 10px solid black;
+}
+
+.hold-photo2 {
+  background-color: rgb(39, 41, 35);
+  margin: 5px;
+  width: 20em;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  border: 1px solid grey; 
+  border-bottom: 10px solid black;
+}
+
+.hold-photo3 {
+  background-color: rgb(39, 41, 35);
+  border: 1px solid grey;
+  margin: 5px;
+  width: 20em;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 10px solid black;
+}
+
+.hold-photo4 {
+  background-color: rgb(39, 41, 35);
+  border: 1px solid grey;
+  margin: 5px;
+  width: 20em;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 10px solid black;
+}
+
+.hold-photo5 {
+  background-color: rgb(39, 41, 35);
+  border: 1px solid grey;
+  width: 20em;
+  margin: 5px;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 10px solid black;
+}
+
+img {
+  width: 100%;
+  box-shadow: 0 5px rgb(40, 31, 31);
+}
+
+.conteiner {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+  font-family:Tahoma ;
+  display: flex;
+}
+
+.form {
+  background: cadetblue;
+  margin: o auto;
+  width: 20em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em; 
+  border-radius: 12px;
+  box-shadow: 0 3px 20px rgb(19, 142, 52);
+}
+
+input {
+  display: block;
+  background: transparent;
+  border: none;
+  box-shadow: 0 0 2px white;
+}
+
+.hold {
+  background: aliceblue;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 7px;
+}
+
+.show {
+  width: 90%;
+  height: 20px;
+  background: linear-gradient(rgb(1, 254, 1),rgb(153, 233, 153),rgb(15, 131, 15));
+
+}
+
+.show1 {
+ width: 60%;
+ height: 20px;
+ background: linear-gradient(rgb(13, 182, 13), rgb(143, 243, 143), rgba(9, 108, 9, 0.609));
+}
+
+.show2 {
+  width: 40%;
+  height: 20px;
+  background: linear-gradient(rgb(12, 228, 69),rgb(237, 246, 111),rgb(44, 156, 15));
+}
+
+.show3 {
+  width: 15%;
+  height: 20px;
+  background: linear-gradient(rgb(243, 44, 44),rgb(232, 113, 113),rgb(130, 7, 7));
+}
+
+fieldset {
+  margin: 2em 10em;
+}
